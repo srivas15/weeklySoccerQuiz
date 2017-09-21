@@ -1,0 +1,10 @@
+{% extends "navbar.html" %}
+{% block content %}
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='index.css') }}">
+	<script type = "text/javascript" src = "{{ url_for('static', filename = 'index.js') }}" ></script>
+    <div class="startPromptOuter">
+    	<div class="startPromptMiddle">
+    		<a href = "{{ url_for('test') }}"><div class="startPromptInner">Start this week's quiz</div></a>
+    	</div>
+    </div>
+{% endblock %}

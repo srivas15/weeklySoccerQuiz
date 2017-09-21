@@ -1,0 +1,46 @@
+.startPromptOuter {
+	margin: 10% auto;
+}  
+
+.startPromptMiddle {
+	margin: 0 auto;
+	width: 70%;
+}  
+
+.startPromptInner {
+	align: center;
+    font-size: 120px;
+    text-align: center;
+    border:1px solid black;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 0 auto;
+}
+
+.startPromptInner:hover{
+  background:#f8f8f8;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.startPromptMiddle a { 
+	color: black; 
+	text-decoration:none;
+} 
+
+.startPromptMiddle a:hover { 
+	color: black; 
+	text-decoration:none;
+} 
+
+.startPromptMiddle a:link {
+	color: black;
+    text-decoration: none;
+}
+
+.startPromptMiddle a:visited {
+    text-decoration: none;
+}
+
+.startPromptMiddle a:active {
+    text-decoration: underline;
+}
