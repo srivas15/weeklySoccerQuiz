@@ -9,6 +9,17 @@ def index():
                            title='Home',
                            user=user)
 
-@app.route('/test')
-def test():
+@app.route('/quizStart')
+def quizStart():
 	print 'WOW'
+
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
+'''@app.route('/authorize/<provider>')
+def oauth_authorize(provider):
+    if not current_user.is_anonymous():
+        return redirect(url_for('index'))
+    oauth = OAuthSignIn.get_provider(provider)
+    return oauth.authorize()'''
