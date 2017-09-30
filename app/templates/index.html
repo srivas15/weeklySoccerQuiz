@@ -1,7 +1,6 @@
 {% extends "navbar.html" %}
 {% block content %}
 	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='index.css') }}">
-	<img src="{{ url_for('static',filename='test.png') }}">
     <div class="startPromptOuter">
     	<div class="startPromptMiddle">
     		<a href = "{{ url_for('startQuiz', number='1') }}"><div class="startPromptInner">Start this week's quiz</div></a>
