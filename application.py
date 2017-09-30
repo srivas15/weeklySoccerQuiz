@@ -1,18 +1,10 @@
-from flask import Flask
-
-# print a nice greeting.
-def say_hello(username = "World"):
-    return '<p>Hello!</p>\n' 
+from app import app
 
 # EB looks for an 'application' callable by default.
-app = Flask(__name__)
 application = app
 
-# add a rule for the index page.
-app.add_url_rule('/', 'index', (lambda:
-    say_hello()))
-
-@app.route('/home')
+@app.route('/')
+@app.route('/index')
 def home():
     return 'WOW'
 
