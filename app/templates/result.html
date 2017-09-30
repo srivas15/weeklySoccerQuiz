@@ -1,0 +1,9 @@
+{% extends "navbar.html" %}
+{% block content %}
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='result.css') }}">
+    <div class="startPromptOuter">
+    	<div class="startPromptMiddle">
+    		<a href = "{{ url_for('startQuiz', number='1') }}"><div class="startPromptInner">Your score is {{points}}/5<br>Try again?</div></a>
+    	</div>
+    </div>
+{% endblock %}

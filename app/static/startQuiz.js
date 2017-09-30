@@ -17,5 +17,9 @@ function option4() {
 }
 
 function submit() {
-	
+	if (selectedOption != 0)
+	{
+		document.getElementById('answer').value = selectedOption;
+		document.getElementById('question').submit();
+	}
 }
