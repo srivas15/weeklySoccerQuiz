@@ -11,6 +11,10 @@ application = Flask(__name__)
 application.add_url_rule('/', 'index', (lambda:
     say_hello()))
 
+@application.route('/home')
+def home():
+    return 'WOW'
+
 # run the app.
 if __name__ == "__main__":
     # Setting debug to True enables debug output. This line should be
