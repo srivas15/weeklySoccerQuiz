@@ -1,6 +1,15 @@
 #!flask/bin/python
-from app import app
+# from app import app
 
+
+from flask import Flask
+# from flask_sqlalchemy import SQLAlchemy
+# from flask.ext.sqlalchemy import SQLAlchemy
+
+
+app = Flask(__name__)
+# app.config.from_object('config')
+# db = SQLAlchemy(app)
 
 @app.route('/')
 @app.route('/index')
