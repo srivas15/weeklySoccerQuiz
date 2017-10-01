@@ -2,6 +2,7 @@
 {% block content %}
 	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='startQuiz.css') }}">
 	<script src="{{ url_for('static',filename='startQuiz.js') }}"></script>
+	<div class="pageBody">
     <div class="question">
     	{{question}}
     </div>
@@ -16,5 +17,6 @@
 	<a class="btn" id="btn4" href="#btn4" onclick="option4()"> {{options[3]}} </a>
 
 	<button id="submit" onclick="submit()">Submit</button>
+	</div>
 
 {% endblock %}

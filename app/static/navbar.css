@@ -7,6 +7,7 @@
     font-size: 12px;
     letter-spacing: 5px;
     text-align: center;
+    z-index: 20;
   }
   .navbar-nav  li a:hover {
     color: #ADD8E6 !important;
