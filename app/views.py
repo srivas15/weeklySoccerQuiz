@@ -36,7 +36,6 @@ def login():
 
 @app.route('/submitAnswer', methods=['POST'])
 def submitAnswer():
-    print 'comes here'
     global points
     global attempts
 
