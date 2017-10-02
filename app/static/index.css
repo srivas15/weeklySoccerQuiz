@@ -9,7 +9,7 @@
 .startPromptOuter {
 	/*margin: 10% auto;*/
     position: relative;
-    padding-top: 10%;
+    padding-top: 1%;
 }  
 
 .startPromptMiddle {
@@ -58,11 +58,27 @@
     text-decoration: none;
 }
 
+.intro {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 9%;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    .intro {
+        padding-top: 25%;
+        font-size: 19px;
+        width: 95%;
+    }
+
+    .startPromptOuter {
+        padding-top: 0%;
+    }
     .startPromptInner {
         font-size: 50px;
-        margin-top: 50%;
+        margin-top: 10%;
     }
     .pageBody {
         background-image: url(background-mobile.jpeg);

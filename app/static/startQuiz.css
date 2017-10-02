@@ -72,14 +72,14 @@
     .question {
         display:block;
     	font-size: 35px;
-        font-size: 10vw;
+        font-size: 9.5vw;
         margin: auto;
     	text-align: center;
         width: 90%;
         /*display: table; */
-        height: 180px; 
+        height: 140px; 
         /*overflow: hidden;*/
-        padding-top: 10%;
+        /*padding-top: 10%;*/
     }
     .questionText{
         /*display: table-cell; */
