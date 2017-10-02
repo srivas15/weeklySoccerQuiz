@@ -7,7 +7,7 @@
   		<div id="myBar"></div>
 	</div>
     <div class="question">
-    	{{question}}
+    	<div style="display: table-cell; vertical-align: middle;">{{question}}</div>
     </div>
     <form id="question" action="{{ url_for('submitAnswer') }}" method="post">
     	<input type="hidden" name="answer" id="answer" value=0>

@@ -39,7 +39,7 @@ function move() {
   function frame() {
     if (width <= 0) {
       clearInterval(id);
-      // timerDone();
+      timerDone();
     } else {
       width--; 
       elem.style.width = width + '%'; 

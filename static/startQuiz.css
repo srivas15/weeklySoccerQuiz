@@ -27,7 +27,7 @@
 	border: 2px solid gray;
 	width: 55%;
     margin-top: 2%;
-    text-align: left;
+    text-align: center;
 	font-size: 30px;
 	background:#f8f8f8;
 	border-radius: 8px; /*round edges*/
@@ -72,14 +72,14 @@
     .question {
         display:block;
     	font-size: 35px;
-        font-size: 10vw;
+        font-size: 9.5vw;
         margin: auto;
     	text-align: center;
         width: 90%;
         /*display: table; */
-        height: 180px; 
+        height: 140px; 
         /*overflow: hidden;*/
-        padding-top: 10%;
+        /*padding-top: 10%;*/
     }
     .questionText{
         /*display: table-cell; */
