@@ -39,7 +39,7 @@ function move() {
   function frame() {
     if (width <= 0) {
       clearInterval(id);
-      // timerDone();
+      timerDone();
     } else {
       width--; 
       elem.style.width = width + '%'; 
@@ -47,4 +47,20 @@ function move() {
   }
 }
 
+/*responsive font size of question based on length*/
+function changeSize() {
+  var $question = $(".question");
+    
+  var $numChar = $question.text().split("").length;
+    
+  if ($numChar > 60) {
+      if($(document).height() <= 760)
+        document.getElementById("questionText").style.fontSize = "8vw";
+      else
+        document.getElementById("questionText").style.fontSize = "5vw";
+  }
+}
+
 $(move);
+
+$(changeSize);

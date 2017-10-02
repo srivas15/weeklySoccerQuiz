@@ -77,13 +77,9 @@
     	text-align: center;
         width: 90%;
         /*display: table; */
-        height: 100px; 
+        height: 110px; 
         /*overflow: hidden;*/
         /*padding-top: 10%;*/
-    }
-    .questionText{
-        /*display: table-cell; */
-        vertical-align: middle;
     }
     .pageBody {
         background-image: url(background-mobile.jpeg);
