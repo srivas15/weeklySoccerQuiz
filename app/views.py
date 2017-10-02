@@ -14,6 +14,10 @@ def index():
 @app.route('/startQuiz/<number>')
 def startQuiz(number):
     integerNumber = int(number) - 1
+
+    global points;
+    if integerNumber == 0:
+        points = 0;
     
     question = questions[integerNumber]
     options = answers[integerNumber]

@@ -1,5 +1,15 @@
+.pageBody {
+    background-image: url("background-desktop.jpg");
+    /*position: fixed;*/
+    width: 100%;
+    height: 100%;
+    background-size: 100% 120%;
+}
+
 .startPromptOuter {
-	margin: 10% auto;
+	/*margin: 10% auto;*/
+    position: relative;
+    padding-top: 10%;
 }  
 
 .startPromptMiddle {
@@ -12,28 +22,27 @@
     font-size: 120px;
     text-align: center;
     border:1px solid black;
-    box-shadow: 10px 10px 5px #888888;
     margin: 0 auto;
+    background-color: rgba(0,0,0,0.5); /*transparent black*/
 }
 
 .startPromptInner:hover{
-  background:#f8f8f8;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .startPromptMiddle a { 
-	color: black; 
+	color: white; 
 	text-decoration:none;
 } 
 
 .startPromptMiddle a:hover { 
-	color: black; 
+	color: white; 
 	text-decoration:none;
 } 
 
 .startPromptMiddle a:link {
-	color: black;
+	color: white; 
     text-decoration: none;
 }
 
@@ -54,5 +63,12 @@
     .startPromptInner {
       font-size: 50px;
       margin-top: 50%;
+    }
+    .pageBody {
+        background-image: url(background-mobile.jpeg);
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        top: 0px;
     }
 }

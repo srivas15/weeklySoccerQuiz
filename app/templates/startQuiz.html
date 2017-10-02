@@ -3,6 +3,9 @@
 	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='startQuiz.css') }}">
 	<script src="{{ url_for('static',filename='startQuiz.js') }}"></script>
 	<div class="pageBody">
+    <div id="myProgress">
+  		<div id="myBar"></div>
+	</div>
     <div class="question">
     	{{question}}
     </div>
@@ -11,12 +14,10 @@
     	<input type="hidden" name="questionNumber" id="questionNumber" value="{{questionNumber}}">
     </form>
 
-	<a class="btn" id="btn1" href="#btn1" onclick="option1()"> {{options[0]}} </a>
-	<a class="btn" id="btn2" href="#btn2" onclick="option2()"> {{options[1]}} </a>
-	<a class="btn" id="btn3" href="#btn3" onclick="option3()"> {{options[2]}} </a>
-	<a class="btn" id="btn4" href="#btn4" onclick="option4()"> {{options[3]}} </a>
-
-	<button id="submit" onclick="submit()">Submit</button>
+	<a class="btn" id="btn1" onclick="option1()"> {{options[0]}} </a>
+	<a class="btn" id="btn2" onclick="option2()"> {{options[1]}} </a>
+	<a class="btn" id="btn3" onclick="option3()"> {{options[2]}} </a>
+	<a class="btn" id="btn4" onclick="option4()"> {{options[3]}} </a>
 	</div>
 
 {% endblock %}

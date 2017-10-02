@@ -1,15 +1,15 @@
 .pageBody {
     background-image: url("background-desktop.jpg");
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
-    height: 120%;
+    height: 100%;
     background-size: 100% 120%;
-    top: -35px;
 }
 
 .startPromptOuter {
-	margin: 17% auto;
+	/*margin: 10% auto;*/
     position: relative;
+    padding-top: 10%;
 }  
 
 .startPromptMiddle {
@@ -62,15 +62,13 @@
     /* For mobile phones: */
     .startPromptInner {
         font-size: 50px;
-        margin-top: 80%;
+        margin-top: 50%;
     }
     .pageBody {
         background-image: url(background-mobile.jpeg);
         width: 100%;
         height: 100%;
         background-size: 100% 100%;
-        /*margin-top: -4%;*/
-        top: 0px;
-        position: fixed;
+        /*position: fixed;*/
     }
 }
